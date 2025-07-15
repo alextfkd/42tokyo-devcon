@@ -28,7 +28,9 @@ RUN apt-get update && \
     python3-pip \
     man-db \
     locales \
+    x11-apps \
     python3-venv \
+    iputils-ping \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
