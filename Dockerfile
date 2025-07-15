@@ -29,6 +29,8 @@ RUN apt-get update && \
     man-db \
     locales \
     x11-apps \
+    libx11-dev \
+    libxext-dev \
     python3-venv \
     iputils-ping \
     && apt-get clean \
